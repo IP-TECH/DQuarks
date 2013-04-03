@@ -1,0 +1,10 @@
+name = dquarks
+description = Enables the creation of forms and questionnaires.
+core = 7.x
+
+; Files that contain classes:
+files[] = includes/dquarks.export.inc
+
+core = "7.x"
+dependencies[]= smtp
+dependencies[]= libraries
